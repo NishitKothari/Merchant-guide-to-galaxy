@@ -1,8 +1,6 @@
 ######################
 # Project Specific
 ######################
-/src/main/webapp/dist
-/src/main/resources/git.properties
 ######################
 # Eclipse
 ######################
@@ -21,7 +19,6 @@ local.properties
 .settings/**
 .loadpath
 *.episode
-/src/main/resources/rebel.xml
 
 # External tool builders
 .externalToolBuilders/**
@@ -113,3 +110,4 @@ Desktop.ini
 !gradle/wrapper/gradle-wrapper.jar
 
 target/
+/.idea/
